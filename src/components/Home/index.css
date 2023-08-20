@@ -1,0 +1,122 @@
+.home-bg {
+  background-color: #f5f7fa;
+}
+
+.home-details-div {
+  padding: 50px;
+  @media (max-width: 767px) {
+    padding: 20px;
+  }
+}
+
+.home-heading {
+  font-size: 40px;
+  color: #1e293b;
+
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
+}
+
+.home-para {
+  font-size: 20px;
+  color: #475569;
+  max-width: 998px;
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
+}
+
+.Silk {
+  background-color: #ffffff;
+}
+
+.loader-container {
+  text-align: center;
+}
+
+.top-rated-books-head {
+  font-size: 22px;
+}
+
+.carousel-head-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find-books-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  height: 25px;
+  cursor: pointer;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.find-btn-sm {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  height: 35px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 8px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.top-rated-books-img {
+  height: 200px;
+  width: 90%;
+  text-align: center;
+
+  @media (max-width: 767px) {
+    height: 150px;
+    width: 95%;
+  }
+}
+
+.top-rated-books-title {
+  font-size: 24px;
+  color: #334155;
+  text-align: center;
+  @media (max-width: 767px) {
+    font-size: 15px;
+  }
+}
+
+.top-rated-books-author {
+  font-size: 14px;
+  color: #475569;
+  text-align: center;
+  @media (max-width: 767px) {
+    font-size: 11px;
+  }
+}
+
+.icons-div {
+  margin-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.slider-sm {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.slider-bg {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

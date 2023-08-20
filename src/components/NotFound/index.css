@@ -1,0 +1,27 @@
+.not-found-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found-heading {
+  font-size: 25px;
+  color: #334155;
+}
+
+.not-found-para {
+  font-size: 18px;
+  color: #475569;
+  text-align: center;
+}
+
+.go-back-btn {
+  width: 120px;
+  height: 25px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
